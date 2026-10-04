@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Isfira Nurul Aini | Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+
+        <a class="navbar-brand" href="#" onclick="showPage('home')">
+            Informatics Engineering Student<span>.</span>
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+
+    <li class="nav-item">
+        <a class="nav-link active"
+           data-page="home"
+           href="#"
+           onclick="showPage('home')">
+            Home
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link"
+           data-page="about"
+           href="#"
+           onclick="showPage('about')">
+            About
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link"
+           data-page="portfolio"
+           href="#"
+           onclick="showPage('portfolio')">
+            Portfolio
+        </a>
+    </li>
+
+    <!-- DROPDOWN -->
+    <li class="nav-item dropdown">
+
+        <a class="nav-link dropdown-toggle"
+           href="#"
+           role="button"
+           data-bs-toggle="dropdown"
+           aria-expanded="false">
+            More
+        </a>
+
+        <ul class="dropdown-menu">
+
+            <li>
+                <a class="dropdown-item"
+                   href="#"
+                   onclick="showPage('skills')">
+                    <i class="bi bi-code-slash"></i>
+                    Skills
+                </a>
+            </li>
+
+            <li>
+                <a class="dropdown-item"
+                   href="#"
+                   onclick="showPage('experience')">
+                    <i class="bi bi-briefcase"></i>
+                    Experience
+                </a>
+            </li>
+
+            <li>
+                <a class="dropdown-item"
+                   href="#"
+                   onclick="showPage('contact')">
+                    <i class="bi bi-envelope"></i>
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </li>
+
+</ul>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= HOME ================= -->
+<section class="page active-page" id="home">
+
+    <div class="container">
+        <div class="hero">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    HELLO, I'M
+                </p>
+
+                <h1>
+                    Isfira<br>
+                    <span>Nurul Aini</span>
+                </h1>
+
+                <p class="hero-description">
+                    Informatics Student & Web Developer
+                    who enjoys creating clean, useful,
+                    and visually engaging digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="btn-main"
+                            onclick="showPage('portfolio')">
+                        View My Work
+                        <i class="bi bi-arrow-right"></i>
+                    </button>
+
+                    <button class="btn-outline"
+                            onclick="showPage('contact')">
+                        Contact Me
+                    </button>
+
+                </div>
+
+                <div class="social-links">
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/aifiraa_?stkn=dzR5ZzgxcTczY3V6"
+                 target="_blank"
+                 title="Instagram">
+                <i class="bi bi-instagram"></i>
+                </a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/fir4satoru"
+                target="_blank"
+                title="GitHub">
+                    <i class="bi bi-github"></i>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com/in/isfira"
+                target="_blank"
+                title="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="image-frame">
+
+                    <img
+                        src="ak.jpeg"
+                        alt="Profile">
+
+                </div>
+
+                <div class="image-decoration"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+<section class="page" id="about">
+
+    <div class="container">
+
+        <div class="page-header">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+                <p class="section-label">
+                    WHO I AM
+                </p>
+
+                <h3>
+                    Turning ideas into
+                    <span>digital experiences.</span>
+                </h3>
+
+                <p class="about-text">
+                    I am an Informatics student who is interested
+                    in web development, UI/UX design, and technology.
+                    I enjoy learning new things and turning ideas
+                    into functional and attractive digital products.
+                </p>
+
+                <p class="about-text">
+                    Through academic projects and organization
+                    activities, I continue to develop my technical,
+                    creative, and communication skills.
+                </p>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="info-card">
+
+                    <div class="info-item">
+                        <i class="bi bi-person"></i>
+
+                        <div>
+                            <small>Name</small>
+                            <strong>Isfira Nurul Aini</strong>
+                        </div>
+                    </div>
+
+
+                    <div class="info-item">
+                        <i class="bi bi-mortarboard"></i>
+
+                        <div>
+                            <small>Education</small>
+                            <strong>D3 Teknik Informatika</strong>
+                        </div>
+                    </div>
+
+
+                    <div class="info-item">
+                        <i class="bi bi-geo-alt"></i>
+
+                        <div>
+                            <small>Based in</small>
+                            <strong>Surakarta, Indonesia</strong>
+                        </div>
+                    </div>
+
+
+                    <div class="info-item">
+                        <i class="bi bi-code-slash"></i>
+
+                        <div>
+                            <small>Focus</small>
+                            <strong>Web Development & UI/UX</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-cards">
+
+            <div class="mini-card">
+                <i class="bi bi-lightbulb"></i>
+                <h4>Creative</h4>
+                <p>Enjoy creating fresh and interesting ideas.</p>
+            </div>
+
+            <div class="mini-card">
+                <i class="bi bi-code-square"></i>
+                <h4>Developer</h4>
+                <p>Interested in building useful digital products.</p>
+            </div>
+
+            <div class="mini-card">
+                <i class="bi bi-people"></i>
+                <h4>Teamwork</h4>
+                <p>Comfortable working and collaborating in teams.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+<section class="page" id="skills">
+
+    <div class="container">
+
+        <div class="page-header">
+            <p>WHAT I CAN DO</p>
+            <h2>My Skills</h2>
+        </div>
+
+
+        <div class="row g-4">
+
+            <div class="col-lg-6">
+
+                <div class="skill-box">
+
+                    <div class="skill-title">
+                        <span>HTML & CSS</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width:90%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-box">
+
+                    <div class="skill-title">
+                        <span>Bootstrap</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width:85%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-box">
+
+                    <div class="skill-title">
+                        <span>PHP & MySQL</span>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="skill-box">
+
+                    <div class="skill-title">
+                        <span>UI/UX Design</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width:85%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-box">
+
+                    <div class="skill-title">
+                        <span>Python</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width:75%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-box">
+
+                    <div class="skill-title">
+                        <span>Git & GitHub</span>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" style="width:75%"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="tools-section">
+
+            <p class="section-label">
+                TOOLS I USE
+            </p>
+
+            <div class="tools">
+
+                <span>VS Code</span>
+                <span>Figma</span>
+                <span>Canva</span>
+                <span>GitHub</span>
+                <span>Bootstrap</span>
+                <span>MySQL</span>
+                <span>PHP</span>
+                <span>Python</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PORTFOLIO ================= -->
+<section class="page" id="portfolio">
+
+    <div class="container">
+
+        <div class="page-header">
+            <p>MY RECENT WORK</p>
+            <h2>Portfolio</h2>
+        </div>
+
+
+        <div class="row g-4">
+
+            <!-- MEDIXA -->
+            <div class="col-md-6">
+
+                <div class="portfolio-card">
+
+                    <div class="portfolio-image medical">
+                        <i class="bi bi-heart-pulse"></i>
+                    </div>
+
+                    <div class="portfolio-content">
+
+                        <span>WEB DEVELOPMENT</span>
+
+                        <h3>MEDIXA</h3>
+
+                        <p>
+                            A health information platform with
+                            doctor consultation, BMI calculator,
+                            medicine information, and donation features.
+                        </p>
+
+                        <a href="https://medixa.page.gd/home.php" target="_blank">
+                            View Project
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- DAYA -->
+            <div class="col-md-6">
+
+                <div class="portfolio-card">
+
+                    <div class="portfolio-image daya">
+                        <i class="bi bi-hand-heart"></i>
+                    </div>
+
+                    <div class="portfolio-content">
+
+                        <span>UI/UX DESIGN</span>
+
+                        <h3>DAYA</h3>
+
+                        <p>
+                            A digital platform designed to connect
+                            people with social and volunteer activities.
+                        </p>
+
+                        <a href="https://www.figma.com/proto/cwlBVIiUg2QoIp1akZUwff/Untitled--Copy-?node-id=60-1182&p=f&t=0HOGAhHBWkuoSrCY-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=60%3A1145" target="_blank">
+                            View Project
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PERSONAL WEBSITE -->
+            <div class="col-md-6">
+
+                <div class="portfolio-card">
+
+                    <div class="portfolio-image website">
+                        <i class="bi bi-window"></i>
+                    </div>
+
+                    <div class="portfolio-content">
+
+                        <span>WEB DESIGN</span>
+
+                        <h3>Personal Website</h3>
+
+                        <p>
+                            A personal portfolio website showcasing
+                            profile, skills, projects, and experiences.
+                        </p>
+
+                        <a href="https://github.com/fir4satoru" target="_blank">
+                            View Project
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- MOBILE APP -->
+            <div class="col-md-6">
+
+                <div class="portfolio-card">
+
+                    <div class="portfolio-image mobile">
+                        <i class="bi bi-phone"></i>
+                    </div>
+
+                    <div class="portfolio-content">
+
+                        <span>MOBILE UI/UX</span>
+
+                        <h3>Mobile App Concept</h3>
+
+                        <p>
+                            A mobile application concept focusing
+                            on simple navigation and user-friendly
+                            interface design.
+                        </p>
+
+                        <a href="https://www.figma.com/proto/cwlBVIiUg2QoIp1akZUwff/Untitled--Copy-?node-id=60-1182&p=f&t=0HOGAhHBWkuoSrCY-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=60%3A1145" target="_blank">
+                            View Project
+                            <i class="bi bi-arrow-up-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="page" id="experience">
+
+    <div class="container">
+
+        <div class="page-header">
+            <p>MY JOURNEY</p>
+            <h2>Experience</h2>
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span>2025 — PRESENT</span>
+
+                    <h3>D3 Teknik Informatika</h3>
+
+                    <p class="company">
+                        Universitas Sebelas Maret
+                    </p>
+
+                    <p>
+                        Studying programming, database systems,
+                        web development, networking, UI/UX,
+                        and software development.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span>2026</span>
+
+                    <h3>MEDIXA</h3>
+
+                    <p class="company">
+                        Academic Group Project
+                        <a href="https://medixa.page.gd/home.php" target="_blank">
+                            (View Project)
+                        </a>
+                    </p>
+
+                    <p>
+                        Worked on a health web system including
+                        user profiles, BMI calculator, donation
+                        features, and health information.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span>2026</span>
+
+                    <h3>DAYA</h3>
+
+                    <p class="company">
+                        UI/UX Project
+                        <a href="https://www.figma.com/proto/cwlBVIiUg2QoIp1akZUwff/Untitled--Copy-?node-id=60-1182&p=f&t=0HOGAhHBWkuoSrCY-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=60%3A1145" target="_blank">
+                            (View Project)
+                        </a>
+                    </p>
+
+                    <p>
+                        Designed the concept and user experience
+                        for a platform focused on helping people
+                        participate in social activities.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span>ORGANIZATION</span>
+
+                    <h3>Student Organization</h3>
+
+                    <p class="company">
+                        Campus Activities
+                    </p>
+
+                    <p>
+                        Participated in organizational activities,
+                        teamwork, communication, and event-related
+                        responsibilities.
+                        <a href="https://www.instagram.com/p/DYjgdMnkWuY/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank">
+                            (View Activities)
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section class="page" id="contact">
+
+    <div class="container">
+
+        <div class="page-header">
+            <p>LET'S CONNECT</p>
+            <h2>Contact Me</h2>
+        </div>
+
+
+        <div class="row g-5">
+
+            <div class="col-lg-5">
+
+                <h3 class="contact-title">
+                    Have a project<br>
+                    <span>in mind?</span>
+                </h3>
+
+                <p class="contact-description">
+                    Feel free to reach out if you want to
+                    collaborate, discuss a project, or simply
+                    connect with me.
+                </p>
+
+
+                <div class="contact-info">
+
+                    <div>
+                        <i class="bi bi-envelope"></i>
+
+                        <span>
+                            <small>Email</small>
+                            firaeunwo@gmail.com
+                        </span>
+                    </div>
+
+
+                    <div>
+                        <i class="bi bi-geo-alt"></i>
+
+                        <span>
+                            <small>Location</small>
+                            Surakarta, Indonesia
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-7">
+
+                <form class="contact-form">
+
+                    <div class="row g-3">
+
+                        <div class="col-md-6">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Your Name">
+                        </div>
+
+                        <div class="col-md-6">
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Your Email">
+                        </div>
+
+                        <div class="col-12">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Subject">
+                        </div>
+
+                        <div class="col-12">
+                            <textarea
+                                class="form-control"
+                                rows="6"
+                                placeholder="Your Message"></textarea>
+                        </div>
+
+                        <div class="col-12">
+
+                            <button type="submit"
+                                    class="btn-main">
+                                Send Message
+                                <i class="bi bi-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+
+    <div class="container">
+
+        <div class="footer-content">
+
+            <p>
+                © 2026 Isfira Nurul Aini.
+                All Rights Reserved.
+            </p>
+
+            <div class="footer-social">
+
+                <a href="https://www.instagram.com/aifiraa_?stkn=dzR5ZzgxcTczY3V6">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="https://github.com/fir4satoru">
+                    <i class="bi bi-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/isfira">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<!-- Page Navigation -->
+<script>
+
+function showPage(pageName) {
+
+    const pages = document.querySelectorAll(".page");
+
+    pages.forEach(page => {
+        page.classList.remove("active-page");
+    });
+
+
+    const selectedPage = document.getElementById(pageName);
+
+    if (selectedPage) {
+        selectedPage.classList.add("active-page");
+    }
+
+
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    navLinks.forEach(link => {
+
+        link.classList.remove("active");
+
+        if (link.dataset.page === pageName) {
+            link.classList.add("active");
+        }
+
+    });
+
+
+    const navbar = document.getElementById("navbarMenu");
+
+    const bsCollapse =
+        bootstrap.Collapse.getInstance(navbar);
+
+    if (bsCollapse) {
+        bsCollapse.hide();
+    }
+
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+
+}
+
+</script>
+
+</body>
+</html>
